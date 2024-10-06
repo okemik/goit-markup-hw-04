@@ -225,7 +225,7 @@ background-color: #2e2f42;
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
-    padding: 20px 100px;
+    padding-top: 120px 100px;
 }
 
 .section-3 {
@@ -298,7 +298,7 @@ background-color: #2e2f42;
     width: 40px;
     height: 40px;
     overflow: hidden;
-    background-color: var(--color1, #4d5ae5);
+    background-color:  #ffffff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -312,12 +312,15 @@ background-color: #2e2f42;
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: var(--color1, #4d5ae5);
     border-radius: 50%;
     transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+
+.social-icon:hover {
+    --color1: #404BBF;
 }
 
 team .social-link {
@@ -338,9 +341,6 @@ team .social-link {
     transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-3 .team-card:hover .team-info {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
 
 .section-4 {
     padding-top: 120px;
@@ -509,18 +509,18 @@ footer {
 }
 
 .footer-social-link:hover {
-    background-color: #31d0aa;
+    --color1: #31d0aa;
 }
 
 .footer-social-link:focus {
-    background-color: #31d0aa;
+   --color1: #31d0aa;
 }
 
 .footer-social-link {
     fill: var(--foo-icon-fill-color);
 }
 
-.portfolio-card:hover {
+.portfolio-item:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
