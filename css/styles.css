@@ -133,7 +133,6 @@ background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/people-office.jpg);
-    max-width: 1440px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,7 +230,6 @@ background-color: #2e2f42;
 .section-3 {
     background-color: #f4f4fd;
     padding: 120px 0;
-    width: 1154px;
     margin:auto
 }
 
@@ -440,7 +438,6 @@ footer {
     background-color: #2e2f42;
     color: #f4f4fd;
     padding: 100px 0;
-    width: 1154px;
     margin: auto;
 }
 
