@@ -83,14 +83,14 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 5px;
+    padding-bottom: 24px;
 }
 
 .nav-list__list-item .link:after {
     content: '';
     position: absolute;
     width: 0;
-    height: 2px;
+    height: 4px;
     bottom: 0;
     left: 0;
     background-color: #404bbf;
