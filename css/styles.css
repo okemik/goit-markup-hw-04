@@ -98,8 +98,11 @@ a {
 }
 .link:hover {color:#404BBF;}
 
-.link:focus:after {
+.nav-list__list-item .link:focus:after {
     width: 100%;
+}
+
+.nav-list__list-item .link:focus {
     color: #404bbf;
 }
 
